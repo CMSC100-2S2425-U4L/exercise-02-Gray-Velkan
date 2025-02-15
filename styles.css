@@ -200,12 +200,11 @@ body {
     top: 260px;
     left: 425px;
     color: #414b3b;
-    border: 1px;
     word-wrap: break-word;
 }
 
 .todo-container {
-    position: absolute;
+    position: relative;
     top: 140px;
     left: 0;
     z-index: 2;
@@ -221,9 +220,93 @@ body {
 .do-green-box {
     position: relative;
     left: 0;
-    width: 100vw;
-    top: 650px;
-    height: 400px;
+    width: 100%;
+    top: 0;
+    height: 350px;
     background-color: #8ca87c;
-    margin-left: -100px;
+}
+
+.projects {
+    position: relative;
+    top: 100px;
+    width: 100%;
+}
+
+.portfolio-title {
+    position: absolute;
+    font-size: 55px;
+    font-weight: bold;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff9f3;
+    text-align: center;
+    z-index: 10;
+}
+
+.portfolio-green-box {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 150px;
+    height: 150px;
+    background-color: #8ca87c;
+}
+
+.portfolio-line {
+    height: 3px;
+    background-color: #ab8742;
+    border: none;
+    margin-top: 80px;
+    position: absolute;
+    top: 250px;
+    left: 3%;
+    right: 3%;
+}
+
+.vertical-line {
+    width: 2px; 
+    height: 600px; 
+    background-color: #ab8742;
+    position: absolute; 
+    left: 50%; 
+    top: 330px;
+}
+
+.game-container {
+    position: absolute;
+    top: 370px;
+    left: 40px;
+    z-index: 2;
+}
+
+.hrhub-container {
+    position: absolute;
+    top: 370px;
+    left: 720px;
+    z-index: 2;
+}
+
+.portfolio-content {
+    width: 600px;
+    position: absolute;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    top: 680px;
+    left: 40px;
+    color: #414b3b;
+    word-wrap: break-word;
+}
+
+.portfolio-content-p2 {
+    width: 600px;
+    position: absolute;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    top: 680px;
+    left: 720px;
+    color: #414b3b;
+    word-wrap: break-word;
 }
