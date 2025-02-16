@@ -1,13 +1,11 @@
 # Week 2: HTML and CSS
 
 **Name:** Gray Velkan P. Gonzales <br/>
-**Degree Program:** BS Computer Science
+**Degree Program:** BS Computer Science <br/>
 **Student number:** 2023 - 66249 <br/>
 
 ## Live Website Link
-https://cmsc100-2s2425-u4l.github.io/exercise-02-Gray-Velkan/
-
-I cloned the git repository and made changes here in the readme.md as part of our week 0 git exercise.
+Link: https://cmsc100-2s2425-u4l.github.io/exercise-02-Gray-Velkan/
 
 ## Steps on how to create GitHub page
 1. Create a repository.
