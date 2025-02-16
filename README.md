@@ -12,13 +12,13 @@ Link: https://cmsc100-2s2425-u4l.github.io/exercise-02-Gray-Velkan/
    - Make sure it's public and initialize with a README file.
 2. Add your Project Files.
    - Clone the repository using:
-     'git clone https://github.com/your-username/your-repo-name.git'
+     `git clone https://github.com/your-username/your-repo-name.git`
    - Add your project files and push them to the repository.
-     'git add .
-      git commit -m "Initial commit
-      git push -u origin main'
+     > git add .
+     > git commit -m "Initial commit
+     > git push -u origin main`
 3. Enable GitHub Pages
-   - In the repository settings, scroll down to the pages section. Select the branch you want to deploy (e.g., main). Save and wait for it to be published.
+   - In the repository settings, scroll down to the pages section. Select the branch you want to deploy (e.g., `main`). Save and wait for it to be published.
 
 ## Key Takeaways
 - Learned the process of deploying a website using GitHub pages.
