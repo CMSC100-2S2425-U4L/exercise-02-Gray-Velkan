@@ -312,3 +312,64 @@ body {
     color: #414b3b;
     word-wrap: break-word;
 }
+
+/* For mobile phones */
+@media (max-width: 480px) {
+    .navbar {
+      flex-direction: column;
+      padding: 15px 0;
+    }
+    
+    .navbar div {
+      text-align: center;
+      margin: 5px 0;
+    }
+  
+    .text-content h1 {
+      font-size: 50px;
+    }
+  
+    .portfolio-online,
+    .portfolio-text {
+      font-size: 30px;
+    }
+  
+    .aboutme-title,
+    .about-content,
+    .what-title,
+    .what-title-h2,
+    .do-content,
+    .portfolio-title {
+      text-align: center;
+      left: 0;
+      transform: none;
+    }
+  
+    .about-content {
+      left: 0;
+      max-width: 100%;
+      padding: 10px;
+    }
+  
+    .portfolio-title {
+      font-size: 35px;
+    }
+  
+    .portfolio-content,
+    .portfolio-content-p2 {
+      width: 90%;
+      left: 5%;
+    }
+  
+    .portfolio-green-box {
+      height: 120px;
+    }
+  
+    .game-container,
+    .hrhub-container {
+      position: relative;
+      left: 0;
+      width: 100%;
+      text-align: center;
+    }
+  }
