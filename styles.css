@@ -116,6 +116,7 @@ body {
 }
 
 .image-container {
+    display: flex;
     position: absolute;
     width: 100%;
     top: -35px;
